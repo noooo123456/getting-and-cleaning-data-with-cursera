@@ -19,3 +19,10 @@ actions
 Activity identifier, string with 6 possible values:
 WALKING: subject was walking WALKING_UPSTAIRS: subject was walking upstairs WALKING_DOWNSTAIRS: subject was walking downstairs SITTING: subject was sitting 
 STANDING: subject was standing LAYING: subject was laying Average of measurements
+
+the following cahnges to original data sets were performed
+Merged the training and the test sets to create one data set.
+Extracted only the measurements on the mean and standard deviation for each measurement. 
+descriptive activity names were usedto name the activities in the data set
+Appropriately labeled the data set with descriptive variable names. 
+independent tidy data was created set with the average of each variable for each activity and each subject.
